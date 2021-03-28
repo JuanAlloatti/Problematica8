@@ -54,4 +54,8 @@ console.log(stringMonths);
 
 /*Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).*/
 
-console.log(months.slice(4,11));
+var mayoNoviembre;
+
+mayoNoviembre = months.slice(4,11);
+
+console.log(mayoNoviembre);
